@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="test" extends="test-default" namespace="/test">
+		<action name="action" class="kr.lawsn.TestAction">
+			<param name="description">테스트액션</param>
+			<result name="success">/test/test.jsp</result>
+			<result name="dynamic">${jsp}</result>
+		</action>
+	</package>
+
+
+</struts>
