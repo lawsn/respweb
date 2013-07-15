@@ -8,9 +8,9 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-import org.apache.struts2.dispatcher.FilterDispatcher;
+import org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter;
 
-public class TestFilterDispatcher extends FilterDispatcher {
+public class TestFilterDispatcher extends StrutsPrepareAndExecuteFilter {
 
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
