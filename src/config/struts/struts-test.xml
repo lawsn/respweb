@@ -10,6 +10,18 @@
 			<result name="success">/test/test.jsp</result>
 			<result name="dynamic">${jsp}</result>
 		</action>
+		
+		<action name="*GoogleCharts" method="{1}" class="kr.lawsn.action.GoogleChartsAction">
+			<param name="description">구글차트액션</param>
+			<result name="none">/googlecharts/main.jsp</result>
+			<result name="success">/googlecharts/{1}Chart.jsp</result>
+		</action>
+		
+		<action name="*JQPlot" method="{1}" class="kr.lawsn.action.JQPlot">
+			<param name="description">jqplot차트액션</param>
+			<result name="none">/jqplot/main.jsp</result>
+			<result name="success">/jqplot/{1}Chart.jsp</result>
+		</action>
 	</package>
 
 </struts>
