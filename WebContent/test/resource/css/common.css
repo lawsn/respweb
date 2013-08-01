@@ -1,0 +1,268 @@
+@charset 'euc-kr';
+
+body {margin:0 auto;background:url('https://image.hanabank.com/contents/img/common/head_bg.gif') repeat-x 0 7px;}
+
+
+#HANA_WRAP_DIV {width:972px;margin:0 auto;}
+#HANA_HEAD_DIV {/* float:left; */width:974px;height:150px;	}
+#HANA_LNB_DIV {overflow:hidden;float:left;	width:179px;/* background:url('https://image.hanabank.com/contents/img/@lnb.jpg') no-repeat center top;*/ min-height:620px;padding-bottom:25px;}
+#HANA_CONTENTS_DIV {float:left;width:753px; padding-left:40px;padding-bottom:100px;}
+#HANA_FOOTER_DIV {float:left;width:100%;height:151px;background:url('https://image.hanabank.com/contents/img/footer_bg.gif') repeat-x; border-bottom:1px solid #cccdcd;}
+#HANA_FOOTER_DIV .footer {position:relative; width:970px;height:151px;margin:0 auto;}
+
+/**{word-break:keep-all; 
+	white-space:-moz-pre-wrap; 
+	white-space:-pre-wrap; 
+	white-space:-o-pre-wrap; 
+	word-wrap:break-word; 
+}
+
+/* Cyber keyBoard */
+/* sub keyboard */
+.keyB01 {position:relative;width:260px;height:218px;border:2px solid #2E9498;}
+
+.keyB01 .subConfirm01 {position:absolute;top:47px;left:12px;}
+.keyB01 .subDel01 {position:absolute;top:130px;left:12px;}
+.keyB01 .subConfirm02 {position:absolute;top:47px;left:213px;}
+.keyB01 .subDel02 {position:absolute;top:130px;left:213px;}
+
+.keyB01 .subNum01 {position:absolute;top:47px;left:53px;}
+.keyB01 .subNum02 {position:absolute;top:47px;left:92px;}
+.keyB01 .subNum03 {position:absolute;top:47px;left:133px;}
+.keyB01 .subNum04 {position:absolute;top:47px;left:172px;}
+
+.keyB01 .subNum05 {position:absolute;top:88px;left:53px;}
+.keyB01 .subNum06 {position:absolute;top:88px;left:172px;}
+
+.keyB01 .subNum07 {position:absolute;top:130px;left:53px;}
+.keyB01 .subNum08 {position:absolute;top:130px;left:172px;}
+.keyB01 .subNum09 {position:absolute;top:171px;left:53px;}
+.keyB01 .subNum10 {position:absolute;top:171px;left:172px;}
+
+.keyB01 .subkeyHanaLogo {position:absolute;top:89px;left:93px;}
+.keyB01 .subkeyEmpty01 {position:absolute;top:171px;left:93px;}
+.keyB01 .subkeyEmpty02 {position:absolute;top:171px;left:132px;}
+
+/* login keyboard */
+.keyB02 {position:relative;width:581px;height:218px;border:2px solid #2E9498;}
+.keyB02 .logDel01 {position:absolute;top:48px;left:14px;}
+.keyB02 .logConfirm01 {position:absolute;top:130px;left:14px;}
+.keyB02 .logConfirm02 {position:absolute;top:170px;left:14px;}
+.keyB02 .logDel02 {position:absolute;top:48px;left:533px;}
+.keyB02 .logConfirm03 {position:absolute;top:130px;left:533px;}
+.keyB02 .logConfirm04 {position:absolute;top:170px;left:493px;}
+.keyB02 .logkeyHanaLogo {position:absolute;top:89px;left:254px;}
+
+.keyB02 .logkeyEmpty01 {position:absolute;top:48px;left:53px;}
+.keyB02 .logkeyEmpty02 {position:absolute;top:48px;left:493px;}
+.keyB02 .logkeyEmpty03 {position:absolute;top:89px;left:134px;}
+.keyB02 .logkeyEmpty04 {position:absolute;top:89px;left:414px;}
+.keyB02 .logkeyEmpty05 {position:absolute;top:130px;left:94px;}
+.keyB02 .logkeyEmpty06 {position:absolute;top:130px;left:454px;}
+.keyB02 .logkeyEmpty07 {position:absolute;top:170px;left:213px;}
+.keyB02 .logkeyEmpty08 {position:absolute;top:170px;left:334px;}
+
+.keyB02 .logNum01 {position:absolute;top:48px;left:93px;}
+.keyB02 .logNum02 {position:absolute;top:48px;left:133px;}
+.keyB02 .logNum03 {position:absolute;top:48px;left:173px;}
+.keyB02 .logNum04 {position:absolute;top:48px;left:213px;}
+.keyB02 .logNum05 {position:absolute;top:48px;left:253px;}
+.keyB02 .logNum06 {position:absolute;top:48px;left:293px;}
+.keyB02 .logNum07 {position:absolute;top:48px;left:333px;}
+.keyB02 .logNum08 {position:absolute;top:48px;left:373px;}
+.keyB02 .logNum09 {position:absolute;top:48px;left:413px;}
+.keyB02 .logNum10 {position:absolute;top:48px;left:453px;}
+
+.keyB02 .logAlpha01 {position:absolute;top:89px;left:14px;}
+.keyB02 .logAlpha02 {position:absolute;top:89px;left:53px;}
+.keyB02 .logAlpha03 {position:absolute;top:89px;left:93px;}
+.keyB02 .logAlpha04 {position:absolute;top:89px;left:173px;}
+.keyB02 .logAlpha05 {position:absolute;top:89px;left:213px;}
+.keyB02 .logAlpha06 {position:absolute;top:89px;left:253px;}
+.keyB02 .logAlpha07 {position:absolute;top:89px;left:333px;}
+.keyB02 .logAlpha08 {position:absolute;top:89px;left:373px;}
+.keyB02 .logAlpha09 {position:absolute;top:89px;left:453px;}
+.keyB02 .logAlpha10 {position:absolute;top:89px;left:493px;}
+
+.keyB02 .logAlpha11 {position:absolute;top:130px;left:53px;}
+.keyB02 .logAlpha12 {position:absolute;top:130px;left:133px;}
+.keyB02 .logAlpha13 {position:absolute;top:130px;left:173px;}
+.keyB02 .logAlpha14 {position:absolute;top:130px;left:213px;}
+.keyB02 .logAlpha15 {position:absolute;top:130px;left:333px;}
+.keyB02 .logAlpha16 {position:absolute;top:130px;left:373px;}
+.keyB02 .logAlpha17 {position:absolute;top:130px;left:413px;}
+.keyB02 .logAlpha18 {position:absolute;top:130px;left:493px;}
+
+.keyB02 .logAlpha19 {position:absolute;top:170px;left:93px;}
+.keyB02 .logAlpha20 {position:absolute;top:170px;left:133px;}
+.keyB02 .logAlpha21 {position:absolute;top:170px;left:173px;}
+.keyB02 .logAlpha22 {position:absolute;top:170px;left:253px;}
+.keyB02 .logAlpha23 {position:absolute;top:170px;left:293px;}
+.keyB02 .logAlpha24 {position:absolute;top:170px;left:373px;}
+.keyB02 .logAlpha25 {position:absolute;top:170px;left:413px;}
+.keyB02 .logAlpha26 {position:absolute;top:170px;left:453px;}
+
+.keyB01 .pop_close {height: 40px; position: absolute; right: 0; text-align: right; top: 0; width: 100%;}
+.keyB02 .pop_close {height: 40px; position: absolute; right: 0; text-align: right; top: 0; width: 100%;}
+
+body.print {background:none !important}
+
+.ml20px {margin-left:20px;}
+.str {font-weight:bold;}
+.bar01 {margin:0 38px;}
+.txt_left {text-align:left !important;}
+.font_14 {display:block;font-size:14px;font-weight:bold;line-height:25px !important;}
+.pop_btn {margin:20px 0 0 0;text-align:right;}
+.txt_alert {margin-top:50px;padding:20px 33px 15px 33px;border-top:1px solid #DBDBDB;border-bottom:1px solid #DBDBDB;background:#F8F7F4;}
+.tit_alert {padding-bottom:12px;background: url("https://image.hanabank.com/contents/img/pop_lhead.gif") repeat-x 0 bottom;color: #243131;font-size: 16px;font-weight: bold;line-height: 30px;}
+.tit_alert p {display:block;background: url("https://image.hanabank.com/contents/img/bl_lhead.gif") no-repeat scroll 0 8px transparent;color: #243131;font-size: 16px;font-weight: bold;line-height: 30px; padding: 0 2px 0 20px;}
+
+/* Print */
+
+.pop_print {position:relative;background: none #FFFFFF; border: 5px solid #2E9498; overflow: hidden; padding: 25px 0 25px 25px; position: relative; text-align: left; width: 785px;}
+.pop_print .pop_cont {overflow-x: hidden; overflow-y: auto; padding-right:0; ;height:650px; width:785px;}
+.pop_print h4 {border-bottom: 2px solid #018085; color: #037B7C; font-size: 19px; font-weight: bold; height: 25px; margin: 0; padding: 0 0 13px; width: 755px;}
+.pop_print .tbldiv {width:755px;margin-top:5px;overflow:hidden}
+.pop_print .tbl_tbldiv {width:755px !important;}
+.pop_print .tbl_col01 {padding: 0;width: 756px;}
+/* .pop_print table colgroup {display:none;} */
+
+.pop_print .transferDiv{display:inline-block; width:100%; margin:30px 0 0;}
+.pop_print .transferDiv .out .tbl_col01 {float:left; width:340px;}
+.pop_print .transferDiv .in .tbl_col01 {float:right; width:340px;}
+.pop_print .transferDiv .tbldiv{width:100%;}
+.pop_print .total{display:inline-block; width:100%; margin:50px 0 0; padding:10px 15px; background:#f6f5f1; color:#6D695B; border-top:1px solid #9F9F9F; border-bottom:1px solid #9F9F9F;}
+.pop_print .total strong{display:inline-block; padding:0 40px 0 0;}
+.pop_print .total .fl{padding:4px 0 0;}
+
+
+.pChk {text-align:left;margin-top:30px;width:755px;position:relative;}
+.pChk input {vertical-align:-2px;}
+.pChk .sub_layer {position:absolute; top:0px;left:100px;}
+.pChk .sub_layer h4 {border-bottom: 2px solid #018085; color: #037B7C; font-size: 19px; font-weight: bold; height: 18px; margin: 0; padding: 0 0 13px; width: 187px;}
+.pChk .pop_cont {width:755px;height:100% !important; max-height:100% !important;}
+
+.btn_right02 {display:inline-block;float:right;margin-top:-25px;}
+
+.check_on {background: url("https://image.hanabank.com/contents/img/check_on.gif") no-repeat 0 20%;padding-left:19px;line-height:17px}
+.check_off {background: url("https://image.hanabank.com/contents/img/check_off.gif") no-repeat 0 20%;padding-left:19px;line-height:17px}
+
+.radio_on {background: url("https://image.hanabank.com/contents/img/common/radio_on.png") no-repeat 0 20%;padding-left:19px;line-height:17px}
+.radio_off {background: url("https://image.hanabank.com/contents/img/common/radio_off.png") no-repeat 0 20%;padding-left:19px;line-height:17px}
+
+.tbl_paging {background:#F0F0EF;padding:5px 0;margin-top:20px;width:755px;}
+.tbl_pagingBtn {text-align:center;}
+.tbl_count {float:left;display:inline-block;margin-left:15px;}
+.tbl_paging input {width:26px !important;height:17px !important;padding:2px !important;margin-top:3px;}
+.tbl_paging .c_top {background:#FFF; color:#6E6e6E;border:1px solid #B3B3B3;text-align:center;padding:0;}
+.tbl_paging .c_below {background:#FFF; color:#6E6e6E;border:none;background:#F0F0EF;}
+.tbl_paging img {vertical-align:-2px;}
+
+
+.sub_area {position:relative;background: none #FFFFFF; border: 2px solid #2E9498; overflow: hidden; padding: 20px 20px 20px 20px; text-align: left; width: 187px;}
+.sub_area .pop_close {position:absolute;top:0;right:0;}
+.sub_area .pop_close img {height: 17px;position: absolute;right: 0;text-align: right;top: 0;width: 18px;}
+.sub_area ul {margin-top:25px;}
+.sub_area ul li {margin-top:4px;}
+.sub_area ul li input {vertical-align:-2px;}
+.sub_area ul li label {color:#5F5F5F;}
+/* Print */
+
+/* sitemap */
+#sitemap {overflow:hidden;width:971px;height:667px;border:5px solid #2E9498;background-color:#fff}
+#sitemap h4 {color:#2E9498;padding:20px;border:none;background:#FFF;}
+#sitemap .site_left {position:relative;float:left;width:166px;border-top:2px solid #2E9498;}
+#sitemap .site_left .arrow {position:absolute;left:160px}
+#sitemap .site_left ul {background:#2E9498;width:145px;height:599px;padding:0 0 0 15px;}
+#sitemap .site_left ul li {background:none;height:40px;padding:0;}
+#sitemap .site_left ul li.two {background:none;height:80px;padding:0;}
+#sitemap .site_left ul li.on {background: url("https://image.hanabank.com/contents/img/bl_sitemap01.gif") repeat-x;height:40px;}
+#sitemap .site_left ul li.on a {width:135px;}
+#sitemap .site_left ul li a {display:block;border-bottom:1px solid #24777A;border-top:1px solid #3CA3A7;width:127px;padding:11px 0 12px 9px;color:#D8F5F5;font-weight:bold;}
+#sitemap .site_right {float:left;width:785px;border-top:2px solid #2E9498;padding:20px 0 9px 20px;}
+#sitemap .site_right h5 {background:none;padding:0;margin:0;color:#3C3B3B;}
+#sitemap .site_right ul.sc {height:514px;overflow-x:hidden;overflow-y:auto;margin-top:20px;}
+#sitemap .site_right ul.sc li ul {overflow:hidden;}
+#sitemap .site_right .site_list {height:569px;overflow:hidden;}
+#sitemap .site_right .site_list:focus{outline:none}
+#sitemap .site_right ul.sc li {float:left;width:170px;height:257px;margin-right:20px;}
+#sitemap .site_right ul.sc li h6 {margin:0;padding:13px 0;text-align:center;background:#F6F5EE;border-top:2px solid #6D6D6D;border-bottom:1px solid #BABABA;}
+#sitemap .site_right ul.sc li h6 a {color:#6b6565;font-weight:bold;}
+#sitemap .site_right ul.sc li ul {padding:5px;}
+#sitemap .site_right ul.sc li ul li {float:none;height:auto;width:auto;line-height:16px;background: url("https://image.hanabank.com/contents/img/bl_sitemap02.gif") no-repeat 0 7px;padding-left:10px;margin:2px 0 0 10px;line-height:18px;}
+#sitemap .site_right ul.sc li ul li a {line-height:19px;}
+#sitemap a {text-decoration:none;right:5px;top:5px}
+#sitemap .pop_close {position:absolute;top:0;right:0;}
+
+.pop_footer { background: none repeat scroll 0 0 #2E9498; border-top: 1px solid #D4D4D4; bottom: 0; height: 25px; left:0; position: absolute; text-align: center; width: 100%;}
+.pop_footer p {padding-top:6px;color:#fff;}
+
+.pop_footer_left { background: none repeat scroll 0 0 #2E9498; border-top: 1px solid #D4D4D4; bottom: 0; height: 30px; left: 0; position: absolute; text-align: left; width: 100%;}
+.pop_footer_left p {padding:10px 0 0 2px;color:#fff;}
+.pop_footer_left .today {float:right;margin:-19px 0 0 0;color:#FFF;}
+.pop_footer_left .today input {vertical-align:-2px;color:#000;}
+
+.trans  {width:636px;height:83px;border:1px solid #DBDBDB;padding:40px 0 0 20px}
+
+.money_trans {float:left;width:633px;}
+.usa01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_usa.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.kor01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_kor.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.canada01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_canada.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.ast01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_ast.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.newz01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_newz.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.england01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_eland.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.ger01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_ger.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.swiss01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_sws.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+.hongkong01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_hong.gif") no-repeat right 0;padding-right:30px;width:80px;font-weight:bold;}
+
+.money_trans dd {float:left;height:8px;margin-top:3px;}
+.money_trans_bm {float:left;width:633px;margin-top:10px}
+.money_trans_bm .usa01 {float:left;background: url("https://image.hanabank.com/contents/img/common/mark_usa.gif") no-repeat right 0;padding-right:30px;width:80px;}
+.money_trans_bm dd {float:left;height:8px;margin-top:3px;}
+
+.money_trans .money_time,
+.money_trans_bm .money_time {position:absolute; width:480px;}
+
+.money_trans .money_time td,
+.money_trans_bm .money_time td{position:relative;background:#D3D3D3; padding:0; height:8px;}
+
+.money_trans .money_time td span,
+.money_trans_bm .money_time td span{position:absolute; color:#949494;font-weight:bold;}
+
+.money_trans .money_time td span{top:-25px;}
+.money_trans_bm .money_time td span{top:18px;}
+
+.money_trans .money_time td.first span {left:-11px;}
+.money_trans .money_time td.last span {right:-11px;}
+
+.money_trans .money_time td.times,
+.money_trans_bm .money_time td.times{background:url("https://image.hanabank.com/contents/img/common/bg_timepop.gif") repeat;}
+
+@-moz-document url-prefix(){ .money_trans .money_time td.times{position:absolute;}}
+@-moz-document url-prefix(){ .money_trans_bm .money_time td.times{position:absolute;}}
+
+.money_trans .money_time td span.start,
+.money_trans_bm .money_time td.times .start{left:-11px; color:#07787E}
+.money_trans .money_time td span.end,
+.money_trans_bm .money_time td.times .end{right:-11px; color:#07787E}
+
+.money_trans_bm .money_time td.first span {left:-30px;}
+.money_trans_bm .money_time td.last span {right:-30px;}
+
+
+/**/
+.rever01{background:url("https://image.hanabank.com/contents/img/common/bg_timepop.gif"); !important; }
+.rever01 span{color:##949494 !important;}
+.rever02{background:url("https://image.hanabank.com/contents/img/common/bg_timepop.gif"); !important;}
+.rever02 span{color:07787E !important;}
+
+.timeInfo{text-align:right; margin-top:30px;}
+.timeInfo span{padding-left:15px; margin-left:10px; line-height:11px; height:11px; font-size:11px; vertical-align:center; color:#696868;}
+.timeInfo .img01{background:url("https://image.hanabank.com/contents/img/common/icon_time01.gif") no-repeat left top;}
+.timeInfo .img02{background:url("https://image.hanabank.com/contents/img/common/icon_time02.gif") no-repeat left top;}
+
+
+/* layerPop */
+.layerPop{display:none;position:fixed;left:0;top:0;width:100%;height:100%;background:url('https://image.hanabank.com/contents/img/blank.png') repeat;z-index:50}
+
+#sitemap .site_right .site_list {height:569px;overflow:hidden;selector-dummy:expression(this.hideFocus=true);}

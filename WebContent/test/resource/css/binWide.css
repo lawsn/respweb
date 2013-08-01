@@ -1,0 +1,16 @@
+@charset "euc-kr";
+
+body {margin:0 auto;background:url('../../resource/img/common/head_bg2.gif') repeat-x;}
+
+.top_util01,
+.top_util02,
+#topMenu,
+#HANA_LNB_DIV,
+.locate,
+.totalSearch {display:none !important;}
+
+#HANA_HEAD_DIV {height:102px;}
+
+#HANA_CONTENTS_DIV.autoLogout,
+#HANA_CONTENTS_DIV.wide {width:872px;}
+#HANA_CONTENTS_DIV.wide .tbldiv {width:873px;}

@@ -1,0 +1,57 @@
+@charset "euc-kr";
+
+body {background:url('../../resource/img/main/head_bg.gif') repeat-x 0 7px;}
+
+#HANA_HEAD_DIV {height:113px;}
+.top_gnb {width:970px;margin:0 auto;}
+#HANA_HEAD_DIV.open {background:url('../../resource/img/main/head_bg2.gif') repeat-x left bottom;}
+#HANA_WRAP_DIV,
+#HANA_HEAD_DIV {width:100%;margin:0;overflow:visible !important;}
+
+#mainWrap {width:970px;margin:0 auto;background:url("../../resource/img/main/bg.gif") repeat-y;overflow:hidden;}
+.leftCont {float:left;position:relative;width:190px;}
+.leftCont h2 {position:absolute;left:0;top:0;}
+.leftCont ul {padding:170px 0 0 10px;}
+.leftCont ul li {padding:0 0 15px;font-size:0;line-height:0;}
+.leftCont ul li img {display:block;font-size:0;line-height:0;}
+.leftCont .webwatch {padding:30px 0 0 1px;}
+
+.centerCont {float:left;width:289px;padding:0 1px 0 0;}
+.centerCont h3 {padding:40px 0 0 15px;}
+.taxRate {text-align:right;}
+.wZone {height:197px;background:#fcf7f4;}
+.wZoneArea {height:197px;}
+.liRow,
+.liCol {position:relative;}
+#mainWrap .more {position:absolute;right:10px;top:35px;padding:4px;}
+.liRow ul {width:100%;padding:18px 0 0;overflow:hidden;}
+.liRow li {float:left;padding:0 0 0 30px;}
+.wZoneArea.liRow ul {padding-left:10px;}
+.wZoneArea.liRow li {padding:0 0 0 10px;}
+.liCol ul {padding:15px 0 0 16px;}
+.liCol li {padding:3px 0 0 10px;background:url("../../resource/img/main/dot.gif") no-repeat 0 8px;}
+.liCol li a {text-decoration:none;}
+.newsArea {height:186px;background:#f7f7f7;}
+.eventArea1 {position:relative;height:193px;overflow:hidden;}
+.eventArea1 ul {position:relative;}
+.eventArea1 li {position:absolute;left:15px;top:0;}
+.eventArea1 li p {display:none;}
+.eventArea1 li .btn {position:absolute;left:54px;top:-12px;padding:3px;}
+.eventArea1 li.two .btn {left:71px;}
+.eventArea1 li.three .btn {left:88px;}
+
+.eventArea h3,
+.rightCont h3 {padding:30px 0 0 15px;}
+#mainWrap .eventArea .more,
+#mainWrap .rightCont .more {top:25px;}
+
+.rightCont {float:left;}
+.rightCont .visual img {display:block;}
+.guideArea {float:left;width:322px;height:193px;padding:0 1px 0 0;background:#edf9fd url("../../resource/img/main/bg2.gif") repeat-y 100% 0;;}
+.guideArea.liCol li.webwatch {background-position:0 22px;color:#203b44;font-weight:bold;}
+.guideArea.liCol li.webwatch a {color:#203b44;}
+.guideArea .webwatch img {vertical-align:middle;}
+.snsArea {float:left;width:166px;height:193px;background:#f7f7f7;}
+.snsArea p {padding:15px 0 25px 15px;}
+.snsArea ul {display:inline-block;width:100%;}
+.snsArea ul li {float:left;padding:0 0 0 15px;}

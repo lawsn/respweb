@@ -1,0 +1,11 @@
+@charset 'euc-kr';
+
+body {margin:0 auto;background:none;}
+
+
+#HANA_WRAP_DIV {width:977px;margin:0 auto;}
+#HANA_HEAD_DIV {/* float:left;*/width:974px;height:156px;	}
+#HANA_LNB_DIV {overflow:hidden;float:left;width:176px;/* background:url('../images/@lnb.jpg') no-repeat center top;*/height:500px;}
+#HANA_CONTENTS_DIV {float:left;width:754px;padding-left:0;padding-bottom:100px;}
+#HANA_FOOTER_DIV {float:left;width:100%;height:151px;background:url('../images/footer_bg.gif') repeat-x;}
+#HANA_FOOTER_DIV .footer {position:relative;background:url('../images/@footer.jpg') no-repeat;width:977px;height:151px;margin:0 auto;}
