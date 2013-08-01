@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR" %>
 	<div id="HANA_LNB_DIV">
 			<div class="lnb_util">
 				<a href="/myhana/personal/wpcus401_01i.do" class="pub01">개인정보</a>
@@ -117,6 +118,6 @@
 				<li><a href="/contents/mall/deposit/deposit1/1399257_94395.jsp" onclick="window.open(this.href, 'interestRate', 'width=780,height=678'); return false;" title="새창에서 열립니다.">보호금융상품등록부</a></li>
 				<li><a href="/contents/mall/bankcal/bankCal1_01.jsp" onclick="window.open(this.href, 'interestRate', 'width=735,height=715, location=no, status=no'); return false;" title="새창에서 열립니다." target="_blank">금융계산기</a></li>
 			</ul>
-			<img src="<%=strImgServer %>/contents/img/lnb_call.gif" alt="하나은행 콜센터 1599-1111, 해외에서 거실 때 82-42-520-2500" />
+			<img src="/contents/img/lnb_call.gif" alt="하나은행 콜센터 1599-1111, 해외에서 거실 때 82-42-520-2500" />
 		</div>
 		<hr />

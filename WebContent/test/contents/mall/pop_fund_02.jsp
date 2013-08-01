@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=euc-kr" %> 
+<%@ page language="java" contentType="text/html; charset=EUC-KR" %> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
 <head>
 	<title>펀드가입 &lt; 펀드 &lt; 금융상품몰 &lt; 하나은행 오픈뱅킹</title>
-	<meta http-equiv="Content-type" content="text/html; charset=euc-kr" />
+	<meta http-equiv="Content-type" content="text/html; charset=EUC-KR" />
 	<meta http-equiv="Cache-control" content="No-cache" />
 	<meta http-equiv="Pragma" content="No-cache" />
 	<meta name="Description" content="" />

@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=euc-kr" %>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" %>
 
 			<div id="HANA_HEAD_DIV">
 				<div class="top_gnb">
